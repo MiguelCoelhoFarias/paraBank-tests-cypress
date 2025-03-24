@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open:chrome": "npx cypress open --browser chrome",
+    "cy:run:chrome": "npx cypress run --browser chrome",
+    "report:allure": "allure serve allure-results",
+    "tests:allure": "npm run cy:run:chrome && npm run report:allure"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@faker-js/faker": "^9.6.0",
-    "cypress": "^14.2.0"
+    "allure-commandline": "^2.33.0",
+    "allure-cypress": "^3.2.0",
+    "cypress": "^14.2.0",
+    "mocha-allure-reporter": "^1.4.0"
   }
 }
