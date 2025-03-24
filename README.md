@@ -8,21 +8,21 @@ Este repositório contém a automação de testes E2E utilizando Cypress, com fo
 
 **ParaBank** é uma aplicação disponibilizada para testes automatizados, simulando um sistema bancário. A plataforma oferece funcionalidades como:  
 
-👉 Cadastro de usuários  
-👉 Login de usuários  
-👉 Transferência de fundos  
-👉 Solicitação de empréstimos  
-👉 Atualização de perfil  
-👉 Extrato bancário  
+✔️ Cadastro de usuários  
+✔️ Login de usuários  
+✔️ Transferência de fundos  
+✔️ Solicitação de empréstimos  
+✔️ Atualização de perfil  
+✔️ Extrato bancário  
 
 ![ParaBank Logo](https://th.bing.com/th/id/OIP.YbY5Tb5h-QaTfGOvpFXV0AHaD4?w=334&h=180&c=7&r=0&o=5&pid=1.7)  
 
 ## 🛠 Ferramentas Utilizadas  
 
-- **Cypress** – Para desenvolvimento dos testes automatizados  
-- **Allure** – Para geração de relatórios detalhados dos testes  
-- **Faker** – Para geração dinâmica de massa de dados, armazenados em JSON para reutilização e sobrescrita em cada teste  
-- **Scripts personalizados** – Para facilitar a execução do projeto e otimizar tempo  
+- **Cypress** 🏗️ – Para desenvolvimento dos testes automatizados  
+- **Allure** 📊– Para geração de relatórios detalhados dos testes  
+- **Faker** 🎭 – Para geração dinâmica de massa de dados, armazenados em JSON para reutilização e sobrescrita em cada teste  
+- **Scripts personalizados** 🏗️– Para facilitar a execução do projeto e otimizar tempo  
 
 
 ### Fluxos cobertos neste projeto:  
