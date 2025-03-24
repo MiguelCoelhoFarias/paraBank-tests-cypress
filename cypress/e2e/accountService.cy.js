@@ -24,7 +24,7 @@ describe('Account Service Testes', () => {
         accountServicePage.messageConfirmCreateAccount();
     });
 
-    it.only('Abrir nova conta com sucesso - tipo saving', () => {
+    it('Abrir nova conta com sucesso - tipo saving', () => {
         accountServicePage.selectMenuNewAccount();
         accountServicePage.confirmNewAccountPage();
         accountServicePage.selectTypeNewAccount();
