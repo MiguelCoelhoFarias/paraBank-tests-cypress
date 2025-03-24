@@ -16,3 +16,5 @@ cypress/snapshots/**/diffs
 cypress/reports/junit/*
 cucumber-messages.ndjson
 cucumber-report.html
+allure-report
+allure-results

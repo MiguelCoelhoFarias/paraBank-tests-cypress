@@ -191,7 +191,7 @@ describe('testes de registrar Usuario', () => {
     registerPage.confirmErrorPasswordRepeatedRequired();
   })
 
-  it.only('Falhar ao criar usuario com campo senha e campo confirmar senha com dados diferentes', () => {
+  it('Falhar ao criar usuario com campo senha e campo confirmar senha com dados diferentes', () => {
     const user = newUser();
     registerPage.fillFirstName(user.firstName);
     registerPage.fillLastName(user.lastName);
